@@ -41,8 +41,6 @@ npm run build
 npm start
 ```
 
----
-
 ## 🚀 Future Improvements
 
 I'm continuously working to make VibeForge AI more powerful and developer-friendly. Planned enhancements include:
