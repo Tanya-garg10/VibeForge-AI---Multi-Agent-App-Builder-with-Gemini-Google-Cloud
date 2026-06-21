@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-natural-brand: #5A5A40;
+  --color-natural-bg: #F5F5F0;
+  --color-natural-panel: #FFFFFF;
+  --color-natural-text: #141414;
+  --color-natural-text-muted: #575757;
+  --color-natural-border: #E6E6E1;
+  --color-natural-hover: #ECECE6;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+  overflow-x: hidden;
+  margin: 0;
+  height: 100vh;
+}
+
+/* Custom scrollbars for a clean earthy developer aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F0EA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C4C4B8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A89A;
+}

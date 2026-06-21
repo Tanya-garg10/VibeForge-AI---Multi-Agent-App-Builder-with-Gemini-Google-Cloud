@@ -1,0 +1,6 @@
+{
+  "name": "VibeForge AI",
+  "description": "An AI-powered multi-agent application builder that translates ideas, sketches, and screenshots into production-ready full-stack applications with an interactive live preview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
